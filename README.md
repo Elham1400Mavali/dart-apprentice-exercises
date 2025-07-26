@@ -1,10 +1,14 @@
-# Email Validation in Dart
+# Flutter Practice Projects
 
-This project includes a Dart practice exercise for validating email addresses using regular expressions.
+تمرین‌های من از یادگیری دارت - فصل به فصل
 
 ## Exercise Goal
 
-The purpose of this project is to:
+- **فصل اول** → در `lib/chapter1/`
+- **فصل دوم** → در `lib/chapter2/`
+
+## Execute
+
 
 - Learn how to use regular expressions (`RegExp`) in Dart
 - Validate email input with a proper pattern
