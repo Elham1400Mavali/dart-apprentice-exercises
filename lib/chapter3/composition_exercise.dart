@@ -30,6 +30,10 @@ enum Role{
 }
 
 void composition(){
+  print('////////    chapter3 challenge2');
+  print('');
+
+
   Student karen = Student('Karen',20,[Role.athlete,Role.bandMember]);
   Student ali = Student('Ali',18,[Role.studentUnionMember,Role.athlete]);
   Student sara = Student('Sara',20,[Role.bandMember,Role.studentUnionMember]);
@@ -45,6 +49,7 @@ void composition(){
   print("");
 
   sara.introduce();
-  sara.introduce();
+  sara.showRoles();
+
 
 }

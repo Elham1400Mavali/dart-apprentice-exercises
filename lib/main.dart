@@ -7,6 +7,8 @@ import 'chapter2/repeat_tasks.dart';
 import 'chapter3/inheritance_exercise.dart';
 import 'chapter3/composition_exercise.dart';
 
+import 'chapter4/abstract_class.dart';
+
 void main() {
 
   // Challenge Chapter1
@@ -22,6 +24,10 @@ void main() {
   // Challenge Chapter3
   inheritance();
   composition();
+
+
+  // Challenge Chapter4
+  abstract();
 
 
 }

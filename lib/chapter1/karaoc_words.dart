@@ -1,4 +1,7 @@
 void parseWithSubstring() {
+  print('');
+  print('////////    chapter1 challenge2');
+
   final line = '[00:12.34]Row, row, row your boat';
 
   final regex = RegExp(r'\[(\d{2}:\d{2}\.\d{2})\](.*)');
@@ -23,6 +26,9 @@ void parseWithSubstring() {
   }
 }
 void parseWithRegex() {
+  print('');
+  print('////////    chapter1 challenge1');
+
   final line = '[00:12.34]Row, row, row your boat';
 
   final regex = RegExp(r'\[(\d{2}):(\d{2})\.(\d{2})\](.*)');
